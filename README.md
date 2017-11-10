@@ -1,3 +1,3 @@
-Methods: [notes](https://hackmd.io/KYYwRgzMAc0AwFoCsIBMBDBAWAZnCCYWuCIEAnOlhElsMeUA?view)
+[Notes](https://hackmd.io/KYYwRgzMAc0AwFoCsIBMBDBAWAZnCCYWuCIEAnOlhElsMeUA?view)
 
-Assemblies available: [files](https://osf.io/zjv86/)
+[Genome assembly files](https://osf.io/zjv86/)
