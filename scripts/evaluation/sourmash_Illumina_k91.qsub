@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -l walltime=48:00:00,nodes=1:ppn=32
+#PBS -l mem=100GB
+#PBS -j oe
+#PBS -A ged
+
+#set -e
+#set -x
+
+module load GNU/4.8.3
+module unload python
+source activate sourmash_nov2017
+sourmash compute --scaled 1000 /mnt/scratch/ljcohen/NovaSeq_killifish/F_olivaceus_R1.fastq.gz -o /mnt/scratch/ljcohen/NovaSeq_killifish/sourmash/Foli_Illumina_R1_k91.sig -k 91

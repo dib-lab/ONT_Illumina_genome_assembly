@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -l walltime=4:00:00,nodes=1:ppn=16
+#PBS -l mem=72GB
+#PBS -j oe
+set -e
+set -x
+cd ${PBS_O_WORKDIR}
+
+source ~/.bashrc
+module load GNU/4.8.3
+
+nucmer --maxmatch --threads=14 \
+-p Foli_megahit_miniasm \
+/mnt/scratch/ljcohen/NovaSeq_killifish/F_olivaceus/final.contigs.fa \
+/mnt/scratch/ljcohen/onp_Porecamp_killifish/fastq2/miniasm/Fo.fa
+
+mummerplot --fat --filter --png -l --large -p Foli_megahit_miniasm Foli_megahit_miniasm.delta

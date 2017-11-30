@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -l walltime=168:00:00,nodes=1:ppn=32
+#PBS -l mem=750GB
+#PBS -j oe
+#PBS -A ged
+set -e
+set -x
+cd ${PBS_O_WORKDIR}
+source ~/.bashrc
+
+module load GNU/4.4.5 OpenMPI/1.4.3 Boost/1.47.0 ABySS/1.9.0
+abyss-pe k=96 name=F_olivaceus_Illumina in="F_olivaceus_R1.fastq.gz F_olivaceus_R2.fastq.gz" contigs

@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -l walltime=168:00:00,nodes=1:ppn=32
+#PBS -l mem=750GB
+#PBS -j oe
+#PBS -A ged
+#PBS -M ljcohen@msu.edu
+#PBS -m ae
+set -e
+set -x
+
+source ~/.bashrc
+canu --version
+canu -p F_olivaceus -d /tmp/F_olivaceus_assembly \
+useGrid=false ovsMethod=sequential genomeSize=1.1g \
+-nanopore-raw /mnt/scratch/ljcohen/onp_Porecamp_killifish/fastq2/porecamp_killifish2.fastq
+
+cp -r /tmp/F_olivaceus_assembly/ /mnt/scratch/ljcohen/onp_Porecamp_killifish/
+rm -rf /tmp/F_olivaceus_assembly/
+

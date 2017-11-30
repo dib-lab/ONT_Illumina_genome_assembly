@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -l walltime=48:00:00,nodes=1:ppn=32
+#PBS -l mem=100GB
+#PBS -j oe
+#PBS -A ged
+
+#set -e
+#set -x
+
+#source ~/.bashrc
+module load GNU/4.8.3
+module unload python
+source activate sourmash_nov2017
+sourmash compute --scaled 1000 /mnt/scratch/ljcohen/onp_Porecamp_killifish/fastq2/porecamp_killifish2.fastq -o /mnt/scratch/ljcohen/onp_Porecamp_killifish/fastq2/sourmash/Foli_ONT.sig -k 31

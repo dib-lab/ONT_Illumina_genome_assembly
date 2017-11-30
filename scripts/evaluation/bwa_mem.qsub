@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -l walltime=8:00:00,nodes=1:ppn=8
+#PBS -l mem=72GB
+#PBS -j oe
+set -e
+set -x
+
+cd ${PBS_O_WORKDIR}
+module load bwa SAMTools/1.2
+bwa mem -t4 -x ont2d porecamp_killifish.fasta /mnt/scratch/ljcohen/NovaSeq_killifish/F_olivaceus_R1.fastq.gz /mnt/scratch/ljcohen/NovaSeq_killifish/F_olivaceus_R2.fastq.gz | samtools view -bS - | samtools sort - mapped_reads.sorted

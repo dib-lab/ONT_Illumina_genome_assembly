@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -l walltime=48:00:00,nodes=1:ppn=16
+#PBS -l mem=72GB
+#PBS -j oe
+#PBS -A ged
+#set -e
+#set -x
+cd ${PBS_O_WORKDIR}
+
+source ~/.bashrc
+module load GNU/4.8.3
+
+mummerplot --fat --filter --png -l --large -p Foli_megahit_canu Foli_megahit_canu.delta

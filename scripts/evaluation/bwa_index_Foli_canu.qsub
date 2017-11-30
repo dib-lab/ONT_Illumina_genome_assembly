@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -l walltime=4:00:00,nodes=1:ppn=16
+#PBS -l mem=72GB
+#PBS -j oe
+set -e
+set -x
+
+cd ${PBS_O_WORKDIR}
+module load bwa
+bwa index /mnt/scratch/ljcohen/onp_Porecamp_killifish/F_olivaceus_assembly/F_olivaceus.contigs.fasta
