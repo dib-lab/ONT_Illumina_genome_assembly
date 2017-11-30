@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -l walltime=168:00:00,nodes=1:ppn=32
+#PBS -l mem=500GB
+#PBS -j oe
+#PBS -A ged
+set -e
+set -x
+cd ${PBS_O_WORKDIR}
+source ~/.bashrc
+
+megahit -1 F_olivaceus_R1.fastq.gz -2 F_olivaceus_R2.fastq.gz -o F_olivaceus

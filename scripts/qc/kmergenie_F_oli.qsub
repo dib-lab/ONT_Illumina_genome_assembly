@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -l walltime=4:00:00,nodes=1:ppn=8
+#PBS -l mem=48GB
+#PBS -j oe
+set -e
+set -x
+cd ${PBS_O_WORKDIR}
+
+source ~/.bashrc
+module load R
+kmergenie F_olivaceus.fastq -o F_olivaceus

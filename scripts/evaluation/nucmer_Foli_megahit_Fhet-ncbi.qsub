@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -l walltime=4:00:00,nodes=1:ppn=16
+#PBS -l mem=72GB
+#PBS -j oe
+set -e
+set -x
+cd ${PBS_O_WORKDIR}
+
+source ~/.bashrc
+module load GNU/4.8.3
+
+nucmer --maxmatch --threads=14 \
+-p Foli_megahit_Fhet-ncbi \
+/mnt/scratch/ljcohen/NovaSeq_killifish/F_olivaceus/final.contigs.fa \
+/mnt/home/ljcohen/reference/GCF_000826765.1_Fundulus_heteroclitus-3.0.2_genomic.fna
+
+mummerplot --fat --filter --png -l --large -p Foli_megahit_Fhet-ncbi Foli_megahit_Fhet-ncbi.delta
