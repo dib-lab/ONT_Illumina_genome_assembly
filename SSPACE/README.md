@@ -22,3 +22,15 @@ Command:
 ```
 perl SSPACE-LongRead.pl -c <contig-sequences> -p <pacbio-reads>
 ```
+
+SSPACE (standard):
+
+Boetzer M, Henkel CV, Jansen HJ, Butler D, Pirovano W (2011), Scaffolding pre-assembled contigs
+using SSPACE, Bioinformatics, 27(4):578-9.
+
+SSPACE-LongRead:
+Boetzer M, Pirovano W (2014), SSPACE-LongRead: Finishing bacterial draft genomes using long read
+sequence information, submitted for publication.
+
+GapFiller:
+Boetzer M, Pirovano W (2012), Toward almost closed genomes with GapFiller, Genome Biology, 13(6).
