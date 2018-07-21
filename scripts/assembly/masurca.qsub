@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -l walltime=120:00:00,nodes=1:ppn=16
+#PBS -l mem=700GB
+#PBS -j oe
+#PBS -A ged
+
+module load GNU/4.8.3
+cd ${PBS_O_WORKDIR}
+/mnt/home/ljcohen/bin/MaSuRCA-3.2.6/bin/masurca config.txt
+./assemble.sh
