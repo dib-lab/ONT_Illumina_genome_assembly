@@ -1,7 +1,0 @@
-#!/bin/bash
-#PBS -l walltime=72:00:00,nodes=1:ppn=20
-#PBS -l mem=72GB
-#PBS -j oe
-#PBS -A ged
-
-read_fast5_basecaller.py -i /mnt/scratch/ljcohen/onp_Porecamp_killifish -t 40 -k SQK-RAD002 -f FLO-MIN106 -r -o fastq -s /mnt/scratch/ljcohen/onp_Porecamp_killifish/fastq2/
