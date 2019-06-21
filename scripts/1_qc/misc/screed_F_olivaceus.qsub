@@ -1,9 +1,0 @@
-#!/bin/bash
-#PBS -l walltime=8:00:00,nodes=1:ppn=8
-#PBS -l mem=72GB
-#PBS -j oe
-set -e
-set -x
-cd ${PBS_O_WORKDIR}
-screed db F_olivaceus.fastq 
-python -m screed dump_fasta F_olivaceus.fastq_screed F_olivaceus_Illumina.fasta
