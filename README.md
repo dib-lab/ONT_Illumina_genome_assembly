@@ -3,6 +3,8 @@ Genome assemblies of four *Fundulus* killifish with ONT and Illumina
 
 2019
 
+[![DOI](https://zenodo.org/badge/110296617.svg)](https://zenodo.org/badge/latestdoi/110296617)
+
 Lisa K. Johnson [1,2], Ruta Sahasrabudhe [3], Tony Gill [1], Jennifer Roach [1], Lutz Froenicke [3], C. Titus Brown [2], Andrew Whitehead* [1]
 
 [1] Department of Environmental Toxicology, University of California, Davis
