@@ -3,7 +3,7 @@ Genome assemblies of four *Fundulus* killifish with ONT and Illumina
 
 2019
 
-[![DOI](https://zenodo.org/badge/110296617.svg)](https://zenodo.org/badge/latestdoi/110296617)
+https://www.biorxiv.org/content/10.1101/686246v1
 
 Lisa K. Johnson [1,2], Ruta Sahasrabudhe [3], Tony Gill [1], Jennifer Roach [1], Lutz Froenicke [3], C. Titus Brown [2], Andrew Whitehead* [1]
 
@@ -17,6 +17,8 @@ Lisa K. Johnson [1,2], Ruta Sahasrabudhe [3], Tony Gill [1], Jennifer Roach [1],
 1. QC [scripts](https://github.com/johnsolk/ONT_Illumina_genome_assembly/tree/master/scripts/1_qc)
 2. Assembly [scripts](https://github.com/johnsolk/ONT_Illumina_genome_assembly/tree/master/scripts/2_assembly)
 3. Evaluation [scripts](https://github.com/johnsolk/ONT_Illumina_genome_assembly/tree/master/scripts/3_evaluation)
+
+[![DOI](https://zenodo.org/badge/110296617.svg)](https://zenodo.org/badge/latestdoi/110296617)
 
 # Data
 
