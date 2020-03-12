@@ -18,7 +18,7 @@ Lisa K. Johnson [1,2], Ruta Sahasrabudhe [3], Tony Gill [1], Jennifer Roach [1],
 2. Assembly [scripts](https://github.com/johnsolk/ONT_Illumina_genome_assembly/tree/master/scripts/2_assembly)
 3. Evaluation [scripts](https://github.com/johnsolk/ONT_Illumina_genome_assembly/tree/master/scripts/3_evaluation)
 
-[![DOI](https://zenodo.org/badge/110296617.svg)](https://zenodo.org/badge/latestdoi/110296617)
+[![DOI](https://zenodo.org/badge/110296617.svg)](https://doi.org/10.5281/zenodo.3492222)
 
 # Data
 
