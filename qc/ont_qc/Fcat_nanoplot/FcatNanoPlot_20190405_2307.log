@@ -1,0 +1,17 @@
+2019-04-05 23:07:52,703 NanoPlot 1.20.0 started with arguments Namespace(N50=True, alength=False, bam=None, barcoded=False, color='#4CB391', cram=None, downsample=None, dpi=100, drop_outliers=False, fasta=None, fastq=['F_catenatus_trimmed.Q5.fq'], fastq_minimal=None, fastq_rich=None, font_scale=1, format='png', listcolors=False, loglength=True, maxlength=None, minlength=None, minqual=None, no_N50=False, outdir='Fcat_nanoplot', percentqual=False, pickle=None, plots=['kde', 'dot'], prefix='Fcat', raw=False, readtype='1D', runtime_until=None, store=False, summary=None, threads=4, title=None, verbose=True)
+2019-04-05 23:07:52,703 Python version is: 3.6.8 |Anaconda, Inc.| (default, Dec 30 2018, 01:22:34)  [GCC 7.3.0]
+2019-04-05 23:07:52,862 Nanoplotter: valid output format png
+2019-04-05 23:07:52,991 Nanoget: Starting to collect statistics from plain fastq file.
+2019-04-06 01:25:03,414 Reduced DataFrame memory usage from 388.11561584472656Mb to 258.7437438964844Mb
+2019-04-06 01:25:04,162 Nanoget: Gathered all metrics of 16957030 reads
+2019-04-06 01:25:14,109 Calculated statistics
+2019-04-06 01:25:14,113 Using sequenced read lengths for plotting.
+2019-04-06 01:25:14,787 Using log10 scaled read lengths.
+2019-04-06 01:25:15,420 Nanoplotter: Valid color #4CB391.
+2019-04-06 01:25:17,000 Nanoplotter: Creating length plots for Read length.
+2019-04-06 01:25:17,058 Nanoplotter: Using 16957030 reads with read length N50 of 3839bp and maximum of 590485bp.
+2019-04-06 01:26:49,723 Created length plots
+2019-04-06 01:26:50,908 Nanoplotter: Creating Read lengths vs Average read quality plots using statistics from 16957030 reads.
+2019-04-06 01:28:15,156 Created LengthvsQual plot
+2019-04-06 01:28:15,156 Writing html report.
+2019-04-06 01:29:52,699 Finished!
