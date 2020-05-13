@@ -20,7 +20,7 @@ Lisa K. Johnson [1,2], Ruta Sahasrabudhe [3], Tony Gill [1], Jennifer Roach [1],
 
 [![DOI](https://zenodo.org/badge/110296617.svg)](https://doi.org/10.5281/zenodo.3492222)
 
-License (for files): Open
+License: MIT
 
 # Data
 
