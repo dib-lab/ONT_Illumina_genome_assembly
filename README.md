@@ -32,6 +32,10 @@ Johnson, L. (2019, June 21). Genome assemblies of killifish from the Fundulus ge
 
 Johnson, Lisa K., Brown, C. Titus, & Whitehead, Andrew. (2019). Draft genome assemblies of killifish from the Fundulus genus with ONT and Illumina sequencing platforms [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3251034
 
+Assembly evaluations and other stats:
+
+Johnson, L. (2019, June 28). Genome assemblies of killifish from the Fundulus genus with ONT. https://doi.org/10.17605/osf.io/zjv86
+
 
 # Thank you!
 
